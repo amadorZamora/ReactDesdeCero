@@ -13,7 +13,7 @@ class Funcional1 extends React.Component
 	cambiar_estado(bbb)
 	{
 		console.log(bbb)
-		this.setState({nombres : ['Nombre 1','Nombre 2','Nombre 3']})
+		this.setState({nombres : ['Nuevo nombre 1','Nuevo nombre 2','Nuevo nombre 3']})
 	}
 
 
@@ -24,7 +24,9 @@ class Funcional1 extends React.Component
 			<br />
 			<a>COMPONENTE FUNCIONAL 1</a>
 			<br />
-			
+			<br />
+			<button onClick={this.cambiar_estado.bind(this,'otro parametro')} > CAMBIAR ESTADO </button>
+
 			<ol id="lista2">
 			<ul> 
 				{this.state.nombres.map((name) =>
