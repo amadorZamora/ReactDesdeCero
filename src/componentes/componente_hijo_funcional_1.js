@@ -1,5 +1,5 @@
 import React from 'react'
-
+import ComponenteTonto from './componente_hijo_tonto'
 
 class Funcional1 extends React.Component
 {
@@ -28,7 +28,7 @@ class Funcional1 extends React.Component
 			<ol id="lista2">
 			<ul> 
 				{this.state.nombres.map((name) =>
-					<li key={name}> {name}</li>
+					<li key={name}> <ComponenteTonto nombre_lista={name}/> </li>
 			)}
 			</ul>
 			</ol>

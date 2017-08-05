@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import ComponenteTonto from './componentes/componente_hijo_tonto'
+
 import Funcional1 from './componentes/componente_hijo_funcional_1'
 
-const nombre_padre = 'Darth Vader'
+
 
 class App extends Component {
   render() {
@@ -19,7 +19,7 @@ class App extends Component {
       
       
       <Funcional1 />
-      <ComponenteTonto nombre_padre={nombre_padre}/>
+      
 
       
 

@@ -5,7 +5,7 @@ class ComponenteTonto extends Component
 {
     render()
     {
-        return(<span>{this.props.nombre_padre}</span>)
+        return(<span>{this.props.nombre_lista}</span>)
     }
 }
 
