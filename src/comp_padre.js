@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import Funcional1 from './componentes/componente_hijo_funcional_1'
-
+import Funcional2 from './componentes/componente_hijo_funcional_2'
 
 
 class App extends Component {
@@ -19,6 +19,8 @@ class App extends Component {
       
       
       <Funcional1 />
+
+      <Funcional2 />
       
 
       
